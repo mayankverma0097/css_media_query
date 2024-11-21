@@ -97,6 +97,7 @@ main button:hover {
   flex-wrap: wrap;
   column-gap: 10vw;
   row-gap: 40px;
+  padding: 20px 0px;
 }
 
 .card {
@@ -110,6 +111,7 @@ main button:hover {
 
 .card img {
   width: 25vw;
+  height: 35vh;
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -183,7 +185,7 @@ main button:hover {
   
   .card {
     width: 90vw;
-    height: 100vh;
+    height: 90vh;
     
   }
 
