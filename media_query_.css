@@ -9,10 +9,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: whitesmoke;
   /* background: linear-gradient(to right,#fb00ff5b,#00dade75); */
-  padding: 20px;
+  padding:  30px 20px;
   height: 50px;
+  position: sticky;
+  top: 0px;
 }
 
 nav img {
@@ -25,6 +27,7 @@ nav img {
 .search input {
   padding: 10px 20px;
   border-radius: 20px;
+  
 }
 
 .search button {
@@ -163,6 +166,7 @@ main button:hover {
   nav {
     flex-direction: column;
     height: fit-content;
+    position: static;
   }
 
   nav img
@@ -176,7 +180,10 @@ main button:hover {
   .search {
     flex-direction: column;
   }
-
+.search input
+{
+  margin-top: 10px;
+}
   .search button {
     margin-top: 10px;
   }
