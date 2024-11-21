@@ -164,6 +164,11 @@ main button:hover {
     flex-direction: column;
     height: fit-content;
   }
+
+  nav img
+  {
+    width: 30vw;
+  }
   nav ul {
     flex-direction: column;
     margin-top: 20px;
