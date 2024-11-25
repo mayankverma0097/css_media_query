@@ -11,7 +11,7 @@ nav {
   align-items: center;
   background-color: whitesmoke;
   /* background: linear-gradient(to right,#fb00ff5b,#00dade75); */
-  padding:  30px 20px;
+  padding: 30px 20px;
   height: 50px;
   position: sticky;
   top: 0px;
@@ -22,12 +22,15 @@ nav img {
 }
 .search {
   display: flex;
+  /* border: 1px solid black; */
+  width: 40%;
+  column-gap: 10px;
 }
 
 .search input {
   padding: 10px 20px;
   border-radius: 20px;
-  
+  width: 100%;
 }
 
 .search button {
@@ -110,10 +113,11 @@ main button:hover {
   /* background: linear-gradient(to bottom, #fc00ff, #00dbde); */
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
+  padding: 20px;
 }
 
 .card img {
-  width: 25vw;
+  width: 22vw;
   height: 35vh;
   border-radius: 10px 10px 0px 0px;
 }
@@ -169,8 +173,7 @@ main button:hover {
     position: static;
   }
 
-  nav img
-  {
+  nav img {
     width: 30vw;
   }
   nav ul {
@@ -179,11 +182,11 @@ main button:hover {
   }
   .search {
     flex-direction: column;
+    width: 70%;
   }
-.search input
-{
-  margin-top: 10px;
-}
+  .search input {
+    margin-top: 10px;
+  }
   .search button {
     margin-top: 10px;
   }
@@ -194,14 +197,13 @@ main button:hover {
     padding: 10px;
   }
 
-  
   .card {
     width: 90vw;
     height: 90vh;
-    
   }
 
   .card img {
-    width: 90vw;
+    width: 80vw;
+    height: 40vh;
   }
 }
